@@ -5,11 +5,8 @@
   ],
   "packageRules": [
     {
-      "enabled": false,
-      "groupName": "pip",
-      "matchManagers": ["pip_requirements"],
-      "matchPackagePatterns": ["*"],
-      "separateMajorMinor": false
+      "matchPackageNames": ["requests", "urllib3", "certifi"],
+      "replacementName": ""
     }
   ],
   "osvVulnerabilityAlerts": true
