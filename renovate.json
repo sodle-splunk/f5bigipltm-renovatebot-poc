@@ -3,5 +3,14 @@
   "extends": [
     "config:recommended"
   ],
+  "packageRules": [
+    {
+      "enabled": false,
+      "groupName": "pip",
+      "matchManagers": ["pypi"],
+      "matchPackagePatterns": ["*"],
+      "separateMajorMinor": false
+    }
+  ],
   "osvVulnerabilityAlerts": true
 }
