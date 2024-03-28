@@ -7,7 +7,7 @@
     {
       "enabled": false,
       "groupName": "pip",
-      "matchManagers": ["pypi"],
+      "matchManagers": ["pip_requirements"],
       "matchPackagePatterns": ["*"],
       "separateMajorMinor": false
     }
