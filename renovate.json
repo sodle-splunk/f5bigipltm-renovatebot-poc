@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["requests", "urllib3", "certifi"],
-      "replacementName": ""
+      "replacementVersion": "absent"
     }
   ],
   "osvVulnerabilityAlerts": true
